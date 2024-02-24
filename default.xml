@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-14.0.0_r25" />
 
+  <remote  name="aanja"
+           fetch="https://github.com/aanjaOS"
+           revision="14" />
+
   <default revision="refs/heads/lineage-21.0"
            remote="github"
            sync-c="true"
@@ -23,7 +27,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" >
+  <project path="build/make" name="aanjaOS/android_build" groups="pdk" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1208,4 +1212,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/aanja.xml" />
 </manifest>
