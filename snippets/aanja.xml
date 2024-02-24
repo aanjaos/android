@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="android" name="android" remote="aanja"/>
-    <project path="vendor/aanja" name="android_vendor_aanja" remote="aanja"/>
+    <project path="android" name="android" remote="aanja" revision="14"/>
+    <project path="vendor/aanja" name="android_vendor_aanja" remote="aanja" revision="14"/>
 
 </manifest>
